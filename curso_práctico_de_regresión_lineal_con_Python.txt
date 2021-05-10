@@ -1,0 +1,9 @@
+Regresión lineal
+Aproximación con una línea de un conjunto de datos
+
+Método de mínimos cuadrados
+Es un procedimiento de análisis numérico en la que, dados un conjunto de datos (pares ordenados y familia de funciones), se intenta determinar la función continua que mejor se aproxime a los datos (línea de regresión o la línea de mejor ajuste), proporcionando una demostración visual de la relación entre los puntos de los mismos. En su forma más simple, busca minimizar la suma de cuadrados de las diferencias ordenadas (llamadas residuos) entre los puntos generados por la función y los correspondientes datos.
+Este método se utiliza comúnmente para analizar una serie de datos que se obtengan de algún estudio, con el fin de expresar su comportamiento de manera lineal y así minimizar los errores de la data tomada.
+Fórmula
+B1 = (sumatoria((x-xprom)*(y-yprom)))/(sumatoria((x-xprom)^2))
+B0 = (yprom)-(B1*xprom)
