@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def estimateB0B1(x, y):
-    # n = np.size(x)
+    n = np.size(x)
     averageX = np.mean(x)
     averageY = np.mean(y)
     sumXY = np.sum((x - averageX) * (y - averageY))
@@ -11,7 +11,7 @@ def estimateB0B1(x, y):
     b1 = sumXY / sumXX
     b0 = averageY - (b1 * averageX)
 
-    return b1, b0
+    return b0, b1
 
 
 def plotRegression(x, y, b):
